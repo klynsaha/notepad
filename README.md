@@ -1,4 +1,4 @@
-# Notes on Web
+# Notepad on Web
 
 This app is made using HTML, Bootstrap CSS and JS. A major problem most developer face is to jump between multiple apps to take down notes. And this app aims to solve this issue.
 
