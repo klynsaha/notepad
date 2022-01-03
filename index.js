@@ -19,7 +19,7 @@ clearBtn.addEventListener("click", function () {
 
 const downloadBtn = document.getElementById("download");
 downloadBtn.addEventListener("click", function () {
-    if (note.value === "") window.alert("Content is empty lol :)");
+    if (note.value === "") window.alert("Please enter something in notes!");
     else {
         const text = note.value;
         const downloadLink = document.createElement("a");
