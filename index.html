@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notepad</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+
+<body class="bg-dark">
+    <main>
+        <div class="container mt-3">
+            <textarea class="form-control mt-2 bg-dark text-white" name="note" id="note" cols="100" rows="20"
+                placeholder="Enter your notes here"></textarea>
+            <div class="text-center mt-3">
+                <button type="button" class="btn btn-outline-success" style="margin-right: 0.5rem;"
+                    id="download">Download</button>
+                <button type="button" class="btn btn-outline-danger" id="clear">Clear</button>
+                <p class="text-muted mt-2">Note is auto-saved in localStorage.</p>
+            </div>
+
+        </div>
+    </main>
+    <script src="index.js"></script>
+</body>
+
+</html>
